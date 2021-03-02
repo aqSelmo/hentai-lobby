@@ -1,0 +1,22 @@
+{
+    "name": "hentai09/public_html",
+    "authors": [
+        {
+            "name": "Guilherme Falcao",
+            "email": "guilusa25@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    },
+	"autoload": {
+		"psr-4": {
+			"Hentailobby\\Classes\\": "classes/",
+			"Hentailobby\\Controllers\\Home\\": "controllers/home/",
+			"Hentailobby\\Controllers\\Administracao\\": "controllers/administracao/",
+			"Hentailobby\\Models\\Home\\": "models/home/",
+			"Hentailobby\\Models\\Administracao\\": "models/administracao/"
+		}
+	}
+}
